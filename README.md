@@ -1,9 +1,11 @@
 py-wellrng
 ===========
 
-Implementation of WELL1024 RNG in python. 
-Use as replacement of original python random library
-Note that jumpahead method is missing
+Implementation of WELL1024 RNG in python.
+
+Can be use as replacement of original python random library.
+
+Note that jumpahead method is missing.
 
 Usage Example
 =============
