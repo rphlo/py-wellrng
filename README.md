@@ -3,7 +3,7 @@ py-wellrng
 
 Implementation of WELL1024 RNG in python. 
 Use as replacement of original python random library
-jumpahead method is missing
+Note that jumpahead method is missing
 
 Usage Example
 =============
