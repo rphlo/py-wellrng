@@ -1,7 +1,7 @@
 py-wellrng
 ===========
 
-Implementation of WELL1024 RNG in python.
+Implementation of WELL1024a RNG in python.
 
 Can be use as replacement of original python random library.
 
