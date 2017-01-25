@@ -1,14 +1,14 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
-  name = 'py-wellrng',
-  packages = ['py-wellrng'], # this must be the same as the name above
-  version = '0.1',
+  name = 'wellrng',
+  packages = ['wellrng'],
+  version = '0.2',
   description = 'A replacment for the default random lib using WELL1024a RNG',
   author = 'Raphael Stefanini',
-  author_email = 'stef.raphael@gmail.com',
+  author_email = 'rphl@rphl.net',
   url = 'https://github.com/rphlo/py-wellrng',
-  download_url = 'https://github.com/rphlo/py-wellrng/tarball/0.1',
+  download_url = 'https://github.com/rphlo/py-wellrng/tarball/0.2',
   keywords = ['random', 'well1024a', 'PRNG', 'RNG'],
   classifiers = [],
 )
