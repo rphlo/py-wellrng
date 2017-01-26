@@ -73,10 +73,10 @@ class WELL1024a(_random.Random):
             unshift = self.next_bit
             self.next_bit += bits
         else:
-            result = self._rand(True)
+            result = self._rand()
             nb = int(bits/32)
             for _ in range(nb):
-                result = (result << 32) | self._rand(True)
+                result = (result << 32) | self._rand()
             self.bit_state = result
             self.next_bit = bits
             self.available_bits = (1 + nb)*32 - bits
